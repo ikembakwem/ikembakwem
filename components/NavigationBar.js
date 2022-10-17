@@ -63,7 +63,7 @@ const NavigationBar = () => {
       <div
         className={`${
           isOpen ? '' : 'hidden'
-        } pt-1 box-border relative w-full h-screen bg-white -z-1 animate-slidein`}
+        } lg:hidden pt-1 box-border relative w-full h-screen bg-white -z-1 animate-slidein`}
       >
         <div className="text-base font-medium">
           <Link href="/">
