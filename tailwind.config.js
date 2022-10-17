@@ -19,15 +19,17 @@ module.exports = {
         slidein: {
           '0%': {
             transform: 'translateY(-24rem)',
+            opacity: '0',
           },
           '100%': {
             transform: 'none',
+            opacity: '1',
           },
         },
       },
       animation: {
         slidein:
-          'slidein .3s cubic-bezier(0.6, 0, 0.15, 1) 0s 1 normal forwards running',
+          'slidein .5s cubic-bezier(0.6, 0, 0.15, 1) 0s 1 normal forwards running',
       },
       zIndex: {
         1: '1',
