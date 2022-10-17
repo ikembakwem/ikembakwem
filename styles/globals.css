@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.new-class {
+  color: rgba(5, 15 green, 25 blue, 0);
+}
